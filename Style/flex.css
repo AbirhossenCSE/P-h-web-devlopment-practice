@@ -1,12 +1,19 @@
 .parent{
     padding: 25px;
-    background-color: aliceblue;
+    background-color: rgb(196, 200, 204);
     display: flex;
+    gap: 30px;
+    justify-content: space-around;
+
+    height: 350px;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .child{
     border: 1px solid black;
-    background-color: aquamarine;
+    background-color: rgb(102, 227, 185);
     padding: 20px;
     font-size: 20px;
     margin: 10px 0px;
