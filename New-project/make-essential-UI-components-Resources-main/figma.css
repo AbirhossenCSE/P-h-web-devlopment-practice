@@ -25,6 +25,7 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
 
 #hero{
@@ -87,7 +88,7 @@
 
 
 #cardbox{
-    width: 700px;
+    width: 800px;
     margin: 100px auto;
 }
 /* .continer{
@@ -119,6 +120,9 @@
 .card-continer{
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
 }
 
 .card-continer .card{
