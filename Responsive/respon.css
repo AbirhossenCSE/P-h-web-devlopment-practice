@@ -13,11 +13,17 @@ nav a{
 .login-form-continer{
     display: flex;
     justify-content: center;
+
+    align-items: center;
+    height: 90vh;
+    
 }
 .login-form{
     display: flex;
     flex-direction: column;
     width: 40%;
+    border: 1px solid green;
+    
 }
 .login-form input{
     margin-top: 20px;
