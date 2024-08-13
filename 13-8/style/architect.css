@@ -19,7 +19,7 @@
 .text-gray{
     color: #424242;
 }
-.text-lifgt-gray{
+.text-light-gray{
     color: #727272;
 }
 .btn-primary{
@@ -31,6 +31,26 @@
     border-radius: 8px;
     border: none;
 }
+
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
+
+.text-primary{
+    color: #FF900E;
+}
+
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
 
 /* Header Style */
 .bg-1{
@@ -82,4 +102,54 @@
 }
 .banner-image{
     width: 100%;
+}
+
+
+/* Team & Fratures related Style */
+.teams{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 100px;
+    max-width: 480px;
+}
+
+
+#Our{
+    font-weight: 700;
+}
+
+
+
+
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .nav-links,
+    .teams{
+        flex-direction: column;
+    }
+    
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-features{
+        margin-left: 20px;
+    }
+}
+
+/* Responsive For Medium sixe */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
+    }
 }
