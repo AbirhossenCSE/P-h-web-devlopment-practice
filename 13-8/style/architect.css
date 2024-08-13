@@ -146,6 +146,19 @@ main > section{
     margin-bottom: 0px;
 }
 
+#experience-badge{
+    padding: 35px 35px;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    margin-left: -75px;
+    margin-top: -75px;
+}
+#experience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 
 
 /* Some facts related Style */
