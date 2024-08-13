@@ -22,6 +22,15 @@
 .text-lifgt-gray{
     color: #727272;
 }
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
 
 /* Header Style */
 .bg-1{
@@ -29,11 +38,14 @@
 }
 
 /* Nav-bar related Style */
+.brand{
+    font-weight: bold;
+    font-size: 2.1rem;
+}
 .navbar{
     /* display: flex; */
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
+    
 }
 
 .nav-links{
@@ -47,4 +59,27 @@
 }
 .navlink{
     text-decoration: none;
+}
+
+
+
+.navbar,
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+/* banner Style */
+.banner-content{
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-image{
+    width: 100%;
 }
