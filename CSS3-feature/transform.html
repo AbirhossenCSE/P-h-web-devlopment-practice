@@ -6,22 +6,39 @@
     <title>Transform</title>
 
     <style>
+
+        body{
+            margin-left: 50px;
+        }
         .continer, .Inner{
             width: 200px;
             height: 200px;
+        }
+        .continer{
+            border: 2px solid steelblue;
+            background: aquamarine;
+        }
+        .Inner{
+            border: 2px solid brown;
+            background-color: palegoldenrod;
+            /* transform: scale(0.25, 0.5); */
+            /* transform: rotate(45deg); */
+        }
+        .Inner:hover{
+            transform: translateY(-150px) scale(0.5) rotate(45deg);
         }
     </style>
 </head>
 <body>
     <h2>Explore Transform and Translate</h2>
     <!-- .continer*3{continer $}>.Inner{Inner $} -->
-    <div class="continer">continer 1
+    <div class="continer">
         <div class="Inner">Inner 1</div>
     </div>
-    <div class="continer">continer 2
+    <div class="continer">
         <div class="Inner">Inner 2</div>
     </div>
-    <div class="continer">continer 3
+    <div class="continer">
         <div class="Inner">Inner 3</div>
     </div>
 </body>
