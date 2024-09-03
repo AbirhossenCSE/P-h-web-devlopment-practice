@@ -1,9 +1,9 @@
-// var weight = 38;
-// var price = 40;
-// var year = 2000;
-// var money = 5000;
+var weight = 38;
+var price = 40;
+var year = 2000;
+var money = 5000;
 
-// console.log(money);
+console.log(money);
 
 
 // String type variable
